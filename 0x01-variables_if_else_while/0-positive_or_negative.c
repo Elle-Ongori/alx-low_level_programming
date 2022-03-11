@@ -1,9 +1,13 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-/*main - entry point*/
-/*void - a function return type for C*/
-/*return 0 always*/
+
+/**
+ *main - entry point
+ *Description
+ *betty style doc for function main goes there
+ *Return: Always return zero(0)
+ */
 
 int main(void)
 {
