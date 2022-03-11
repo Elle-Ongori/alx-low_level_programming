@@ -7,11 +7,12 @@
 
 int main(void)
 {
-	char ch = '0';
+	int i = 48;
 
-	for (ch = '0'; ch <= '9'; ch++)
+	while (i < 58)
 	{
-		putchar(ch);
+		putchar(i);
+		i++;
 	}
 
 	putchar('\n');
