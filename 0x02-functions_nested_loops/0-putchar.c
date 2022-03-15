@@ -1,22 +1,24 @@
+#include <unistd.h>
 #include "main.h"
 
 /**
  * main - prints _putchar
- * Description - to print _putchar
+ *
+ * _putchar print given characters
+ *
  * Return: 0 (success)
  */
 
 int main(void)
 {
-	char c[] = "_putchar";
-	int i = 0;
-
-	while (c[i] != '\0')
-	{
-		_putchar(c[i]);
-		i++;
-	}
+	_putchar('_');
+	_putchar('p');
+	_putchar('u');
+	_putchar('t');
+	_putchar('c');
+	_putchar('h');
+	_putchar('a');
+	_putchar('r');
 	_putchar('\n');
-
 	return (0);
 }
