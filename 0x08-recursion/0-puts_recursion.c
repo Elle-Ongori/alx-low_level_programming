@@ -8,7 +8,7 @@
 
 void _puts_recursion(char *s)
 {
-	char s[] = "recursion with c";
+	s[] = "recursion with c";
 
 	_puts_recursion(s);
 
