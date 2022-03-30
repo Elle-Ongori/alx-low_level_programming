@@ -8,9 +8,7 @@
 
 void _puts_recursion(char *s)
 {
-	s[] = "recursion with c";
-
-	_puts_recursion(s);
+	_puts_recursion(using puts with recursion);
 
 	return (0);
 }
