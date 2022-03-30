@@ -9,7 +9,7 @@
 
 int check_int(int square, int x)
 {
-  if (x * x == square)
+	if (x * x == square)
 		return (x);
 	else if (x > square / x)
 		return (check_int(square, x - 1));
