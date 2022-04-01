@@ -14,7 +14,6 @@ int main(int argc, char *argv[])
 
 	for (i = 0; i < argc; i++)
 	{
-		printf("argc = %d\n", argc);
 		printf("The program name is: %s\n", argv[i]);
 	}
 	return (0);
