@@ -1,5 +1,4 @@
-#ifndef ABS_H
-#define ABS_H
+#ifndef ABSOLUTE_H
+#define ABSOLUTE_H
 #define ABS(x) ((x) > (-1) ? (x) : (x * -1))
-#endif /* !ABS_H */
-
+#endif /* !ABSOLUTE_H */
