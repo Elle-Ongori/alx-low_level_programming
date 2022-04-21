@@ -6,19 +6,20 @@
  * @h: head of linked list
  * Return: number of nodes
  */
+
 size_t print_list(const list_t *h)
 {
-	const list_t *current;
-	size_t c;
+	size_t size;
 
-	c = 0;
-	current = h;
-	while (current != NULL)
+	size = 0;
+	while (h != NULL)
 	{
-		printf("[%d] %s\n", current->len, current->str);
-		current = current->next;
-		c++;
+		size++;
+		if (h->str == NULL)
+			printf("[%d] (nil)\n", 0);
+		else
+			printf("[%d] %s\n", h->len, h->str);
+		h = h->next;
 	}
-
-	return (c);
+	return (size);
 }
